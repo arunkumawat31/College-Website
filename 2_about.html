@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> About</title>
+    <link rel="stylesheet" href="6_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+ 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+<link rel="stylesheet" href= "style.css">
+</head>
+<body>
+     <section class="sub-header"> 
+         <nav> 
+            <a href="9_index.html"><img src="Final Logo.jpg"> </a>
+            <div class="nav_links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul> 
+                    <li><a href="1_project.html">Home</a></li>
+                    <li><a href="2_about.html">About</a></li>
+                    <li><a href="3_course.html">courses</a></li>
+                    <li><a href="4_blog.html">Blog</a></li>
+                    <li><a href="5_contact.html">Contact</a></li>
+                 </ul> 
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+         </nav> 
+         <!-- <h1>About Us</h1> -->
+     </section>
+
+     
+     
+     <!-- ------------------------ About us content --------------------------- -->
+    
+     <section class="about-us">
+         <div class="row">
+             <div class="about-col">
+                 <h1>We are the world's Largest university</h1>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quam error quisquam, assumenda optio sit ab tempore quidem. Atque, cumque deleniti tempora omnis beatae delectus vitae voluptatibus quia mollitia veritatis!</p>
+                 <a href="" class="hero-btn">EXPLOR NOW</a>
+             </div>
+             <div class="about-col"> 
+                 <img src="about1.jpg"></div>
+             
+         </div>
+
+     </section>
+
+<!-- ------------------------------------------------------------ -->
+     <section class="facilities">
+        <h1>Our Facilities</h1>
+       <p>Medi-Caps University, provides various facilities to its students. This includes a library, computer lab, hostel,
+            conference room and auditorium. The University also has the facility of sports and gym. These facilities are established,
+             keeping in mind the physical exercise and sports need of the students for involving them into successful personalities.</p>
+       <div class="row">
+           <div class="facilities-col">
+               <img src="audi.jpg">
+               <h3>Auditorium</h3>
+               <p>Medi-Caps has an open-air auditorium fit for public gatherings for more than 1500 people. </p>
+           </div>
+
+           <div class="facilities-col">
+               <img src="hostel.jpg">
+               <h3> Hostel</h3>
+               <p>Hostel facilities are provided for boys and girls. It is equipped 
+                   with all the modern facilities for boarding and recreation 
+                   facilities. </p>
+           </div>
+
+           <div class="facilities-col">
+               <img src="gym.jpg">
+               <h3>Fitness And Gym</h3>
+               <p> The gym facilities are available for the students which help students in fitness.</p>
+           </div>
+       </div>
+
+ <!--  -->
+       <div class="row">
+       <div class="facilities-col">
+           <img src="lib.jpg">
+           <h3>World class library</h3>
+           <p>Medi-Caps library has the latest volumes, in the fields engineering, science, 
+               technology, management and general areas. It has the membership for e-resources and has a 
+               subscription to national and international peer-reviewed e-journals.</p>
+       </div>
+
+       <div class="facilities-col">
+           <img src=" boll.jpg">
+           <h3>Largest Play Ground</h3>
+           <p>Caps ensures that sports are given topmost priority in extracurricular. Students regularly
+                participate and represent the institute in various sports tournaments held in different parts 
+                of the country. The University has a well-furnished football field and cricket fields. It also
+                 has a hockey field, handball, volleyball and badminton court. Tournaments in these sports are organized 
+                 in the institute at University level. </p>
+       </div>
+
+       <div class="facilities-col">
+           <img src="canteen.jpg">
+           <h3>Tasty and Healthy Food</h3>
+           <p> Medi-Caps has a well-maintained cafeteria situated within the institute campus premises. The food served in 
+               the canteen is prepared under hygienic conditions and are of good quality. Canteen is open from 8:00 am to 8:00 
+               am for the benefit of students who avail the facilities of library, gymnasium after college hours.</p>
+       </div>
+   </div>
+
+
+</section>
+
+<!-- -------------------------------footer----------------- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolore distinctio corporis eligendi adipisci? Perspiciatis expedita sit reiciendis repellat? <br> Inventore quam fugiat dicta quae suscipit possimus maiores, esse aliquid itaque?</p>
+        <div class="icons"> 
+            <i class="fa fa-facebook-official" ></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            
+             
+        </div> 
+        <p>Made with<i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+    </section>
+
+
+
+
+
+
+
+     <!-- -------java script for toggle menu -------- -->
+     <script>
+           var navLinks = document.getElementById("navLinks");
+           function showMenu(){
+               navLinks.style.right="0";
+           }
+           function hideMenu(){
+               navLinks.style.right="-260px";
+           }
+     </script>
+
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+ <!-- <div class="row">
+    <div class="course-col"> 
+        <h3> Laboratories:</h3>
+        <p> Each department in the college has well-equipped laboratories.
+             It is providing extensive and contemporary facilities for science
+              teaching and research.  </p>
+    </div>
+    <div class="course-col"> 
+        <h3>Computer Centre</h3>
+        <p>The computer centre of Medi-Caps maintains and manages campus
+             networking and internet facility. It provides both wired and
+              WiFi connectivity to students and staff. The centre is 
+              equipped with the latest system/application software, 
+              operating system and various utility software. All students
+               & staff are allowed to access the internet for academic and 
+               research purposes.</p>
+    </div>
+    <div class="course-col"> 
+        <h3>Seminar Hall </h3>
+        <p> The halls are equipped with the latest teaching aids like LCD projector,
+             slide projector and overhead projector. They are well furnished, 
+             air-conditioned with a capacity of 200 and 700 people.  The hall is 
+             used for conducting guest lectures, symposiums and seminars.</p>
+    </div>
+</div>  -->
